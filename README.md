@@ -30,24 +30,27 @@ I suppose you have python3.5, pip3 and git installed on a linux system. It's bet
 
 **Step 1**: Get a copy of project:
 
-* **```git clone https://github.com/M-Ghasemi/text-mining-demo-khu.git```**
+```$ git clone https://github.com/M-Ghasemi/text-mining-demo-khu.git```
 
 **Step 2**: Install required packages with executing the following line. make sure that you are in the same directory with requirements file.
 
-* **```pip install -r requirements.txt --no-index --find-links```**
+```$ pip install -r requirements.txt --no-index --find-links```
 
 
 **Step 3**: run ipython and install nltk required files (you can also install all files by ```nltk.download('all')```)
 
-* **```import nltk```**
-* **```nltk.download('punkt')```**
-* **```nltk.download('stopwords')```**
-* **```nltk.download('wordnet')```**
-* **```nltk.download('averaged_perceptron_tagger')```**
+```
+>>> import nltk
+>>> nltk.download('punkt')
+>>> nltk.download('stopwords')
+>>> nltk.download('wordnet')
+>>> nltk.download('averaged_perceptron_tagger')
+```
 
 **Step 4**: run jupyter notebook and click on the "text_mining_presentation"
-
-* **```jupyter notebook```**
+```
+$ jupyter notebook
+```
 
 ## Authors
 
